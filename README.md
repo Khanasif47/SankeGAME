@@ -1,13 +1,12 @@
-# SankeGAME
-A classic Snake game built in Java using Swing and AWT, featuring smooth movement, score tracking, random apple spawning, and clean grid-based gameplay.
 🐍 Snake Game (Java Swing)
 
-A classic Snake game built using Java, Swing, and AWT.
-This project demonstrates basic game development concepts such as timers, keyboard input, collision detection, and 2D rendering.
+A classic Snake game built using Java, Swing, and AWT, featuring smooth movement, score tracking, random apple spawning, and responsive keyboard controls. Designed to be simple, clean, and beginner-friendly.
 
 🎮 Features
 
 Smooth snake movement
+
+Keyboard arrow-key controls
 
 Random apple generation
 
@@ -15,44 +14,46 @@ Score tracking
 
 Game Over screen
 
-Grid-based movement system
+Single random snake color each game
 
-Colorful snake body (single random color per game)
+Grid-based movement
 
-Adjustable speed through delay settings
+Easy-to-understand game logic
 
 🕹️ Controls
 Key	Action
-⬆️ Up Arrow	Move Up
-⬇️ Down Arrow	Move Down
 ⬅️ Left Arrow	Move Left
 ➡️ Right Arrow	Move Right
+⬆️ Up Arrow	Move Up
+⬇️ Down Arrow	Move Down
 
 Rules:
 
-Don’t hit the walls
+Eat apples to grow
 
-Don’t hit your own body
+Avoid touching walls
 
-Eat apples to grow and increase score
+Avoid touching your own body
 
-📦 How to Run
-Method 1: Run from IntelliJ IDEA (recommended)
+📦 How to Run the Game
+Method 1: Run via IntelliJ IDEA (Recommended)
 
-Clone or download this repository
+Clone or download the repository
 
-Open the project in IntelliJ
+Open the project in IntelliJ IDEA
 
-Ensure the SDK is set (JDK 8 or higher)
+Set your Project SDK (Java 8 or above)
 
-Run the GameFrame or Main class
+Run GameFrame.java or Main.java
 
-Method 2: Run with Terminal (if you build a JAR)
+Enjoy the game!
+
+Method 2: Run via Terminal (if you build a JAR)
 java -jar SnakeGame.jar
 
 🛠️ Technologies Used
 
-Java 8+
+Java
 
 Swing
 
@@ -62,28 +63,29 @@ Timer-based game loop
 
 📁 Project Structure
 SnakeGame/
- ├── GameFrame.java   # Main window (JFrame)
- ├── GamePanel.java   # Game logic + rendering
- ├── Main.java        # Entry point (if used)
- ├── README.md
- └── resources/       # (optional assets)
+│
+├── GameFrame.java      # Main window (JFrame)
+├── GamePanel.java      # Game logic + rendering
+├── Main.java           # Entry point (optional)
+└── README.md
+
 🚀 Future Improvements
 
 Add sounds
 
-Add menu screen
+Add a menu screen
 
-Add difficulty levels
+Add difficulty modes
 
-Add high score saving
+Save high scores
 
-Add better graphics or themes
+Improve UI/graphics
 
 👨‍💻 Author
 
 Asif Khan
-Java Developer & Enthusiast
-From Reena Mehta College, BCA Department
+BCA Department — Reena Mehta College
+Java Developer & Coding Enthusiast
 
 📜 License
 
